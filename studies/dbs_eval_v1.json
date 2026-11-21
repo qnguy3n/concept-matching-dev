@@ -1,0 +1,14 @@
+{
+  "_comment": "Matchable part of cohort-builder src/lib/liveStudies.ts (study-ka98-dbs-eval-v1, seedRevision 2). Inclusion = PD AND levodopa AND (motor fluctuations OR dyskinesia); inclusion 2 (3-5 years since diagnosis) and exclusions 3-11 have no ontology CUI and are not matched.",
+  "id": "study-ka98-dbs-eval-v1",
+  "ownerId": "ka98",
+  "name": "Deep Brain Stimulation (DBS) Candidacy Evaluation for Parkinson's Disease",
+  "patientStatus": "either",
+  "inclusionCuis": ["C0030567", "C0007297", "OLV0000001", "C0013384"],
+  "exclusionCuis": ["C0038868", "C0393571", "C0393570", "C0752347", "C0497327"],
+  "inclusionGroups": [
+    ["C0030567", "C0007297", "OLV0000001"],
+    ["C0030567", "C0007297", "C0013384"]
+  ],
+  "exclusionGroups": [["C0038868"], ["C0393571"], ["C0393570"], ["C0752347"], ["C0497327"]]
+}
